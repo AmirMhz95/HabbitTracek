@@ -1,5 +1,10 @@
 # Ignore build directories
+
 bin/
+
+# But do not ignore the sqlite.db file in bin/Debug/net8.0/
+!bin/Debug/net8.0/sqlite.db
+
 obj/
 
 # Ignore user-specific files
